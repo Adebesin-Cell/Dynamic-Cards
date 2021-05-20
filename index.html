@@ -9,28 +9,94 @@
     <title>Dynamic Cards</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <div class="logo-box">&nbsp;</div>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" name="home" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" name="About Us" class="nav__link">About Us</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" name="Pricing" class="nav__link">Pricing</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" name="Contact Us" class="nav__link">Contact Us</a>
-          </li>
-        </ul>
-        <ul class="registration">
-          <a href="#" class="btn btn--login">Login</a>
-          <a href="#" class="btn btn--signUp">Sign up</a>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header class="header">
+        <div class="logo-box">
+          <img src="assets/images/logo.svg" alt="logo" class="logo" />
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" name="home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" name="About Us" class="nav__link">About Us</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" name="Pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" name="Contact Us" class="nav__link">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="registration">
+            <a href="#" class="btn btn--login">Login</a>
+            <a href="#" class="btn btn--signUp">Sign up</a>
+          </ul>
+        </nav>
+      </header>
+      <section class="section-intro">
+        <div class="col-5">
+          <h1 class="heading-primary heading-primary--blue">
+            Welcome to Dynamic Cards, a place of cards.
+          </h1>
+          <p class="paragraph">
+            Dynamic cards helps you generate dynamic cards by providing an image
+            and the content
+          </p>
+        </div>
+        <div class="col-5"></div>
+      </section>
+      <section class="section-card">
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="./assets/images/card--2.png"
+              alt="card"
+              class="card__image"
+            />
+            <div class="card__body">
+              <h1 class="card__header">Happy Health</h1>
+              <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="./assets/images/card--3.png"
+              alt="card"
+              class="card__image"
+            />
+            <div class="card__body">
+              <h1 class="card__header">Work with fun</h1>
+              <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img
+              src="./assets/images/card--1.png"
+              alt="card"
+              class="card__image"
+            />
+            <div class="card__body">
+              <h1 class="card__header">Work Place</h1>
+              <p class="card__content">
+                Lorem ipsum dolor sit amet, consectetur adipisc ing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
